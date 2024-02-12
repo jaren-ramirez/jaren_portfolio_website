@@ -1,41 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf-8">
-        <title>Jaren's Portfolio</title>
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <meta name="description" content="Jaren Ramirez Portfolio Webpage">
-        <meta name="keywords" content="Jaren,Ramirez,portfolio,resume">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="navigation-bar">
-            <!-- This navigation bar should bring me to the correct location in the dom
-            maybe a dropdown in projects that also slides to the correct space in the dom -->
-        </div>
-        <div id="main-content">
-            <div id="about-me">
-                <!-- I want to have pop ups to tell who i am
-                Like pop ups of my cat with information maybe a modal?
-                I should use libraries but i want to get really good with html
-                css and javascript -->
+        <nav>
+            <div class="logo"><h5>Jaren's Portfolio</h5></div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <div id="projects">
-                <!-- I want this to move sidewas by manipulating the dom
-                I would like to try and avoid libraries to do what i want -->
-            </div>
-            <div id="resume">
-                <!-- This will be super simple just an area to put my resume and hopeully get people 
-                into who i am -->
-            </div>
-        </div>
-        <div id="contact-me">
-            <!-- A contact me modal or possibly just links to my email-->
-        </div>
+        </nav>
+        <script src="app.js"></script>
     </body>
-
-    <script>
-        //This is where all of my dom manipulation will happen. Should i use vanilla js
-        //or should i use jquery
-        //For this I want to avoid giant frameworks
-    </script>
 </html>
