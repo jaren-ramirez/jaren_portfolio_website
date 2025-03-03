@@ -6,3 +6,16 @@
     width:35px;
     height:auto;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  .section {
+    padding: 100px 20px;
+  }
+  .profile-pic {
+    display: block;
+    max-width: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+  }
